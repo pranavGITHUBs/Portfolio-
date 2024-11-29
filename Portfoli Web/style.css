@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+  {
+  background: linear-gradient(120deg, #010203, #e0e7ff);
+
+  
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f3f4f6;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  position: sticky;
+  top:0%;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin:  1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+/* Hero Section with Background Image */
+.hero {
+  
+  background:no-repeat;
+  color: #dbdbe4;
+  padding: 1rem 1rem;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-top: -278px;
+  margin-left: 32%;
+  text-shadow: 2px 2px 8px rgba(17, 14, 16, 0.7);
+  
+}
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 30%  ;
+  text-shadow: 2px 2px 8px rgba(149, 139, 139, 0.7);
+  
+}
+.hero h2{
+  color: #ddd;
+}
+/* Styling for the socio section */
+.socio {
+  text-align: center;
+  margin-left: 400px;
+
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 2% 30px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration:double;
+  color: white;
+  background-color: #0d66be;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.2); 
+  background-color: #1de7a4; 
+}
+
+
+/* Section Styling */
+.section {
+  padding-top: -1600px;
+  margin-top: -100px;
+  padding:7%; 
+  text-align: center;
+}
+.certificates-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; 
+  flex-wrap: wrap; 
+  padding: 20px;
+}
+
+.certificates-row img {
+  max-width: 250px;
+  height: auto;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.certificates-row img:hover {
+  transform: scale(1.3); 
+}
+/* Styling for the About section */
+.section.about {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the content */
+  text-align: justify; /* Aligns the text neatly */
+  line-height: 1.8; /* Increases line spacing for readability */
+  font-size: 24px; /* Adjusts font size for clarity */
+  color: #ffffff; /* Dark gray text for better contrast */
+}
+
+/* Styling for the heading */
+.section.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: solid;
+  font-size: 32px;
+  color: #030303; /* A visually appealing blue color */
+}
+h2{
+  font-size: 32px;
+  padding-bottom: 10px;
+  color: #010203;
+}
+
+/* Spacing between paragraphs */
+.section.about p {
+  margin-bottom: 15px; /* Adds spacing between paragraphs */
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill {
+  background-color: #61dafb;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Projects Section */
+.project-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  text-align: center;
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 400px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #21a5d5;
+  color: #fff;
+  margin-top: 2rem; 
+}
